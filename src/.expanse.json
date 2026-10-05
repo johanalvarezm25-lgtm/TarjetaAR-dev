@@ -52,7 +52,7 @@
       "position": [
         0,
         0.5,
-        -0.03828866803510422
+        -1.7216515979782647
       ],
       "rotation": [
         0,
@@ -129,6 +129,67 @@
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
+    },
+    "720c30dc-bf4f-4d48-bf81-5130dac1d6b5": {
+      "id": "720c30dc-bf4f-4d48-bf81-5130dac1d6b5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865486,
+        1.0814115138754877e-17,
+        -1.342153425259875e-17,
+        0.7071067811865488
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "tarjetagrande-100"
+      },
+      "order": 2.9009945932355468
+    },
+    "a96de49f-af91-46fc-b186-a67b1245142b": {
+      "id": "a96de49f-af91-46fc-b186-a67b1245142b",
+      "position": [
+        -0.0073906259734809465,
+        0.03912826121304663,
+        0.09514294546450086
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Untitled.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Untitled.glb",
+      "order": 4.691999664681671
     }
   },
   "spaces": {
