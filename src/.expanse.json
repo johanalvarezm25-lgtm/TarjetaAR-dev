@@ -28,46 +28,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.4038940050501252
     },
-    "729478ae-d067-4e0c-a753-66c2e9efb625": {
-      "components": {
-        "8fe14f4e-4311-4b03-807d-a34c9c11368d": {
-          "id": "8fe14f4e-4311-4b03-807d-a34c9c11368d",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "geometry": {
-        "depth": 1,
-        "height": 1,
-        "type": "box",
-        "width": 1
-      },
-      "id": "729478ae-d067-4e0c-a753-66c2e9efb625",
-      "material": {
-        "color": "#7611b6",
-        "type": "basic",
-        "textureFiltering": "sharp"
-      },
-      "name": "Box",
-      "position": [
-        0.5337989364934101,
-        0.5,
-        -1.7216515979782647
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.4038940050501252
-    },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
@@ -134,14 +94,14 @@
       "id": "720c30dc-bf4f-4d48-bf81-5130dac1d6b5",
       "position": [
         0,
-        0,
-        0
+        0.4770313873485881,
+        -0.7536317654469293
       ],
       "rotation": [
-        -0.7071067811865486,
-        1.0814115138754877e-17,
-        -1.342153425259875e-17,
-        0.7071067811865488
+        0,
+        0,
+        0,
+        1
       ],
       "scale": [
         1,
@@ -162,23 +122,23 @@
       "id": "6377ee63-854e-42ad-836b-8f66d0b15eb8",
       "position": [
         -0.4595615950783139,
-        0,
-        0.01674345723453846
+        -0.4770313873485881,
+        0.770375222681468
       ],
       "rotation": [
-        0,
-        0.6691306063588591,
-        0,
-        0.7431448254773935
+        5.448924470867557e-16,
+        0.6691306063588592,
+        1.1258607962148653e-17,
+        0.7431448254773932
       ],
       "scale": [
-        0.40000000000000124,
-        0.40000000000000013,
-        0.40000000000000124
+        0.400000000000004,
+        0.40000000000000296,
+        0.4000000000000014
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "720c30dc-bf4f-4d48-bf81-5130dac1d6b5",
       "components": {},
       "gltfModel": {
         "src": {
@@ -189,7 +149,209 @@
         "loop": true
       },
       "name": "animacion.glb",
-      "order": 6.652951960291684
+      "order": 4.931895516430011
+    },
+    "138648a0-ea6c-432d-8c8a-645ed0e8ddc4": {
+      "id": "138648a0-ea6c-432d-8c8a-645ed0e8ddc4",
+      "position": [
+        5.238529448733282e-32,
+        0.023637324041088092,
+        0.7536317654469293
+      ],
+      "rotation": [
+        4.733165431326039e-30,
+        -2.696301922142118e-32,
+        3.235562306570554e-32,
+        1
+      ],
+      "scale": [
+        1,
+        1.0000000000000067,
+        1.0000000000000067
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "720c30dc-bf4f-4d48-bf81-5130dac1d6b5",
+      "components": {
+        "ea5fc6c3-e5db-4b70-a446-040a40fb58b5": {
+          "id": "ea5fc6c3-e5db-4b70-a446-040a40fb58b5",
+          "name": "Open URL UI Button",
+          "parameters": {
+            "url": "https://www.behance.net/JohanAlvarezM",
+            "enabled": true
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 36,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/behance.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "Button",
+      "order": 6.878133069669234
+    },
+    "9c37ce4b-471d-4474-a6d1-f7cef684b3ac": {
+      "id": "9c37ce4b-471d-4474-a6d1-f7cef684b3ac",
+      "position": [
+        9.244463733058732e-32,
+        0.46603425170598023,
+        0.7536317654469293
+      ],
+      "rotation": [
+        4.733165431326039e-30,
+        -2.696301922142118e-32,
+        3.235562306570554e-32,
+        1
+      ],
+      "scale": [
+        1,
+        1.0000000000000067,
+        1.0000000000000067
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "ba23204c-097f-40e4-aefe-2de54f1d2371": {
+          "id": "ba23204c-097f-40e4-aefe-2de54f1d2371",
+          "name": "Open URL UI Button",
+          "parameters": {
+            "url": "https://www.instagram.com/johan.alvarezm/"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 36,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/instagram.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "Button (1)",
+      "order": 8.068773813175214,
+      "parentId": "720c30dc-bf4f-4d48-bf81-5130dac1d6b5"
+    },
+    "0e8d3246-d414-41e4-986a-9332d9a6d1d5": {
+      "id": "0e8d3246-d414-41e4-986a-9332d9a6d1d5",
+      "position": [
+        0.5211450589479187,
+        0.13458016062787115,
+        0.7536317654469293
+      ],
+      "rotation": [
+        4.730817414969281e-30,
+        -2.6963019016454175e-32,
+        3.008119144261728e-32,
+        1
+      ],
+      "scale": [
+        0.6000000000000001,
+        0.8400000319274948,
+        0.6000000319274932
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/video.mp4"
+        }
+      },
+      "parentId": "720c30dc-bf4f-4d48-bf81-5130dac1d6b5",
+      "components": {},
+      "name": "video1",
+      "order": 3.8841230553318784,
+      "videoControls": {
+        "loop": false,
+        "paused": true
+      }
+    },
+    "ecc44777-c3aa-4b05-85d5-50497583c05f": {
+      "id": "ecc44777-c3aa-4b05-85d5-50497583c05f",
+      "position": [
+        0.4985141102605149,
+        -0.08555855100860565,
+        0.922277943298192
+      ],
+      "rotation": [
+        4.9303806576312895e-30,
+        -2.6842648599896985e-32,
+        3.274080905458299e-32,
+        1
+      ],
+      "scale": [
+        0.4,
+        0.4000000000000027,
+        0.4000000000000027
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "720c30dc-bf4f-4d48-bf81-5130dac1d6b5",
+      "components": {
+        "afb976cf-64f7-4d05-82ba-672725b69fd3": {
+          "id": "afb976cf-64f7-4d05-82ba-672725b69fd3",
+          "name": "Video Toggle Button",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "0e8d3246-d414-41e4-986a-9332d9a6d1d5"
+            },
+            "playIcon": {
+              "type": "entity",
+              "id": "ecc44777-c3aa-4b05-85d5-50497583c05f"
+            },
+            "playOnTargetFound": true
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/play.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "play",
+      "order": 2.8337335454739354
     }
   },
   "spaces": {
